@@ -1,9 +1,9 @@
 package data_base;
 
 public class Weight {
-	private static String weightFile1 = "c:/files/wordChain/easy_words_set/weight1.txt";
-	private static String weightFile2 = "c:/files/wordChain/easy_words_set/weight2.txt";
-	private static String weightFile3 = "c:/files/wordChain/easy_words_set/weight3.txt";
+	private static String weightFile1 = "data_files/weight1.txt";
+	private static String weightFile2 = "data_files/weight2.txt";
+	private static String weightFile3 = "data_files/weight3.txt";
 	
 	public static final float[] weights1 = new float[Words.NUM_OF_WORDS]; 
 	public static final float[] weights2 = new float[Words.NUM_OF_WORDS]; 

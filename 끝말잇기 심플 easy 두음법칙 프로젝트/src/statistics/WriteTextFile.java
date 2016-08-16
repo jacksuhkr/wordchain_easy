@@ -6,10 +6,12 @@ import data_base.Words;
 import main.GamePlayingActivity;
 
 public class WriteTextFile {
+	private static String outputDirectory = "data_files/output/statistics.txt";
+	
 	public static void writeText() throws IOException { 			
 		try {
 			BufferedWriter out = new BufferedWriter
-					(new FileWriter("C:/files/wordChain/easy_words_set/output/statistics.txt"));
+					(new FileWriter(outputDirectory));
 			// 라벨 출력
 			out.write("사용단어" + "\t" + "가중치" + "\t"+ "사용횟수" + "\t" + "단어승률"); 
 			out.newLine();
