@@ -1,7 +1,7 @@
 package data_base;
 
 public class FirstLetters {
-	private static String firstLettersFile = "c:/files/wordChain/easy_words_set/first_letters.txt";
+	private static String firstLettersFile = "data_files/first_letters.txt";
 	
 	public static final int NUM_OF_LETTERS = 11172;
 	public static final String[] firstLetters = new String[NUM_OF_LETTERS];
